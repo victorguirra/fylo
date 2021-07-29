@@ -12,14 +12,10 @@ export const Container = styled.div`
     flex-direction:column;
     align-items:center;
 
-    /* background-image:url(${ WaveBgImg }); */
     background-image:url(${ WaveBgImg });
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 100% 27rem;
-    .wave {
-        background-image:url(${ WaveBgImg });
-    }
 `;
 
 export const Illustration  = styled.img`
@@ -45,14 +41,4 @@ export const Description = styled.p`
     text-align:center;
     margin-top:2rem;
     margin-bottom:1.4rem;
-`;
-
-export const WaveBackground = styled.div`
-    /* display:block; */
-    /* height:10px; */
-    width:100%;
-    background-image:url(${ WaveBgImg });
-    /* background-repeat: repeat-x; */
-    /* background-size: contain; */
-    /* background-position: center center; */
 `;

@@ -1,4 +1,4 @@
-import { Container, Illustration, Title, Description, WaveBackground } from './styles';
+import { Container, Illustration, Title, Description } from './styles';
 
 import { Header, Button } from '../../../../components';
 
