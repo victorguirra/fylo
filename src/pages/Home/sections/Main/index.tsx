@@ -1,15 +1,15 @@
 import { Container } from './styles';
 
 import { Features } from './Features';
+import { Hero } from './Hero';
 // import { Testimonials } from './Testimonials';
-// import { Hero } from './Hero';
 
 export function Main(){
     return(
         <Container>
             <Features />
+            <Hero />
             {/* <Testimonials /> */}
-            {/* <Hero /> */}
         </Container>
     )
 }
