@@ -3,6 +3,7 @@ import { Container } from './styles';
 import { Features } from './Features';
 import { Hero } from './Hero';
 import { Testimonials } from './Testimonials';
+import { Register } from './Register';
 
 export function Main(){
     return(
@@ -10,6 +11,7 @@ export function Main(){
             <Features />
             <Hero />
             <Testimonials />
+            <Register />
         </Container>
     )
 }

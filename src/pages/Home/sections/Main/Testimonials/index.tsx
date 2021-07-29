@@ -23,8 +23,8 @@ export function Testimonials(){
             text:'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-olled collaboration machine.'
         },
         {
-            authorName: 'Satish Patel',
-            authorOffice: 'Founder & CEO Moodle',
+            authorName: 'Iva Boyd',
+            authorOffice: 'Founder & CEO Huddle',
             authorImg: profile3,
             text:'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-olled collaboration machine.'
         },
