@@ -6,6 +6,7 @@ export const Container = styled.input`
 
     color:${({ theme }) => theme.colors.background_main };
     font-family: ${({ theme }) => theme.fonts.primary };
+    font-size:1rem;
 
     border-radius:10rem;
 `;

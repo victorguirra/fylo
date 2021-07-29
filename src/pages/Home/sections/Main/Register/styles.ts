@@ -4,8 +4,12 @@ export const Container = styled.div`
     width:100%;
 
     margin-top:10rem;
+    position:relative;
 
-    display:flex;   
+    background-color:${({ theme }) => theme.colors.error };
+
+    display:flex;
+    flex-direction:column;
     justify-content:center;
 `;
 
@@ -15,6 +19,11 @@ export const FormContainer = styled.div`
     
     border-radius:.4rem;
     padding:3rem 0;
+
+    position:absolute;
+    bottom:-10rem;
+    left:50%;
+    transform: translate(-50%, 0);
 
     display:flex;
     flex-direction:column;
@@ -53,4 +62,10 @@ export const Form = styled.form`
     .button {
         width:25%;
     }
+`;
+
+export const OtherBackground = styled.div`
+    width:100%;
+    height:15rem;
+    background-color: ${({ theme }) => theme.colors.background_footer };
 `;
