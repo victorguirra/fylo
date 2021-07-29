@@ -1,10 +1,11 @@
-import { Intro, Main } from './sections';
+import { Intro, Main, Footer } from './sections';
 
 export function Home(){
     return(
         <>
             <Intro />
             <Main />
+            <Footer />
         </>
     )
 }
