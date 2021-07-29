@@ -1,9 +1,13 @@
 import { Container } from './styles';
 
-export function Button(){
+interface IButtonProps {
+    title: string;
+}
+
+export function Button({ title } : IButtonProps){
     return(
         <Container>
-            Hello Button
+            { title }
         </Container>
     )
 }

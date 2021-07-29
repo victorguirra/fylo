@@ -22,7 +22,7 @@ export function Intro(){
                 friend familly, and co-workers.
             </Description>
 
-            <Button />
+            <Button title="Get Started"/>
 
             <div className="wave"></div>
         </Container>
