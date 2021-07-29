@@ -1,11 +1,9 @@
 import { Container } from './styles';
 
-import { Intro } from './sections';
-
-export function Home(){
+export function Button(){
     return(
         <Container>
-            <Intro />
+            Hello Button
         </Container>
     )
 }

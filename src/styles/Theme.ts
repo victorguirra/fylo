@@ -1,6 +1,6 @@
 export const theme = {
     colors: {
-        white: '#FFF',
+        text_primary: '#FFF',
 
         background_intro: '#1C2431',
         background_main: '#181F2A',
@@ -11,5 +11,10 @@ export const theme = {
         cta_second_gradient: '#339ECC',
         
         error:'#FF4242'
+    },
+
+    fonts: {
+        primary: 'Raleway',
+        secondary: 'Open sans',
     }
 }

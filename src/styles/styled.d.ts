@@ -3,7 +3,7 @@ import 'styled-components';
 declare module 'styled-components' {
     export interface DefaultTheme {
         colors: {
-            white: string;
+            text_primary: string;
 
             background_intro: string;
             background_main: string;
@@ -14,6 +14,11 @@ declare module 'styled-components' {
             cta_second_gradient: string;
             
             error: string;
+        },
+
+        fonts: {
+            primary: string;
+            secondary: string;
         }
     }
 }
