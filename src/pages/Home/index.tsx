@@ -1,11 +1,10 @@
-import { Container } from './styles';
-
-import { Intro } from './sections';
+import { Intro, Main } from './sections';
 
 export function Home(){
     return(
-        <Container>
+        <>
             <Intro />
-        </Container>
+            <Main />
+        </>
     )
 }
