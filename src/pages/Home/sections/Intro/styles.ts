@@ -40,5 +40,5 @@ export const Description = styled.p`
 
     text-align:center;
     margin-top:2rem;
-    margin-bottom:1.4rem;
+    margin-bottom:2rem;
 `;
