@@ -19,10 +19,9 @@ export const Container = styled.div`
     background-size: 100% 27rem;
 
     @media(max-width:1240px) {
-        padding:2rem 1rem 12rem;
+        padding:2rem 1rem 8rem;
 
         background-image:url(${ WaveBgMobileImg });
-        background-size: 100% 35rem;
     }
 `;
 

@@ -17,6 +17,7 @@ export const Container = styled.section`
     }
 
     @media(max-width:1240px) {
+        margin-top:6rem;
         flex-direction:column;
 
         .testimonialCard {
