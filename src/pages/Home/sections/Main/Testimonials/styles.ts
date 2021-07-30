@@ -23,6 +23,10 @@ export const Container = styled.section`
             width:100%;
             margin-top:2rem;
             padding:1.2rem 1rem;
+
+            &:last-of-type {
+                margin-bottom:5rem;
+            }
         }
     }
 `;
