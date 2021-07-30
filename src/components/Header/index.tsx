@@ -10,7 +10,7 @@ export function Header(){
             <nav>
                 <NavItem to="/">Features</NavItem>
                 <NavItem to="/">Team</NavItem>
-                <NavItem to="/">Sign In</NavItem>
+                <NavItem to="/">Login</NavItem>
             </nav>
         </Container>
     )
