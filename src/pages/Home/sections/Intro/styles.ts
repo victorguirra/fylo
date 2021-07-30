@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import WaveBgImg from '../../../../images/bg-curvy-desktop.svg';
+import WaveBgDesktopImg from '../../../../images/bg-curvy-desktop.svg';
+import WaveBgMobileImg from '../../../../images/bg-curvy-mobile.svg';
 
 export const Container = styled.div`
     background-color:${({ theme }) => theme.colors.background_intro };
@@ -12,18 +13,26 @@ export const Container = styled.div`
     flex-direction:column;
     align-items:center;
 
-    background-image:url(${ WaveBgImg });
-    background-repeat: repeat-x;
+    background-image:url(${ WaveBgDesktopImg });
+    background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 27rem;
 
-    @media(max-width:1240px){
+    @media(max-width:1240px) {
         padding:2rem 1rem 12rem;
+
+        background-image:url(${ WaveBgMobileImg });
+        background-size: 100% 35rem;
     }
 `;
 
 export const Illustration  = styled.img`
     margin-top:2rem;
+
+    @media(max-width:1240px) {
+        max-width:80%;
+        margin-top:2.4rem;
+    }
 `;
 
 export const Title = styled.h2`
@@ -34,6 +43,14 @@ export const Title = styled.h2`
 
     text-align:center;
     margin-top:1.2rem;
+
+    @media(max-width:1240px) {
+        font-size:1.5rem;
+
+        br {
+            display:none;
+        }
+    }
 `;
 
 export const Description = styled.p`
@@ -45,4 +62,15 @@ export const Description = styled.p`
     text-align:center;
     margin-top:2rem;
     margin-bottom:2rem;
+
+    @media(max-width:1240px) {
+        font-size:1rem;
+        
+        margin-top:1.4rem;
+        margin-bottom:1.4rem;
+
+        br {
+            display:none;
+        }
+    }
 `;
