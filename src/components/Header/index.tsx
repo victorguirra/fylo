@@ -11,6 +11,7 @@ export function Header(){
                 <NavItem to="/">Features</NavItem>
                 <NavItem to="/">Team</NavItem>
                 <NavItem to="/">Login</NavItem>
+                <NavItem to="/">Contact Us</NavItem>
             </nav>
         </Container>
     )
