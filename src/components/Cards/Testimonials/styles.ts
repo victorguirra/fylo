@@ -12,6 +12,12 @@ export const TextContainer = styled.div`
         color:${({ theme }) => theme.colors.text_primary };
         font-family:${({ theme }) => theme.fonts.secondary };
     }
+
+    @media(max-width:1240px) {
+        p {
+            font-size:.9rem;
+        }
+    }
 `;
 
 export const ProfileContainer = styled.div`

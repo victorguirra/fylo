@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    width:80%;
+    width:90%;
 
     margin-top:12rem;
     margin-bottom:5rem;
@@ -15,10 +15,29 @@ export const Container = styled.section`
     .testimonialCard {
         width:31%;
     }
+
+    @media(max-width:1240px) {
+        margin-top:6rem;
+        flex-direction:column;
+
+        .testimonialCard {
+            width:100%;
+            margin-top:2rem;
+            padding:1.2rem 1rem;
+
+            &:last-of-type {
+                margin-bottom:5rem;
+            }
+        }
+    }
 `;
 
 export const QuotesImg = styled.img`
     position:absolute;
     top:-2.6rem;
     left:0;
+
+    @media(max-width:1240px) {
+        top:-.8rem;
+    }
 `;

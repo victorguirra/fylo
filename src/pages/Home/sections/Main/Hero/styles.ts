@@ -1,11 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    width:65%;
+    width:70%;
     
     display:flex;
     align-items:center;
     justify-content:space-between;
+
+    @media(max-width:1240px) {
+        width:92%;
+        flex-direction:column;
+
+        img {
+            max-width:95%;
+        }
+    }    
 `;
 
 export const InfoContainer = styled.main``;
@@ -15,6 +24,15 @@ export const Title = styled.h2`
 
     font-family:${({ theme }) => theme.fonts.primary };
     font-size:2.6rem;
+
+    @media(max-width:1240px) {
+        margin-top:3rem;
+        font-size:1.2rem;
+
+        br {
+            display:none;
+        }
+    }
 `;
 
 export const Text = styled.p`
@@ -25,6 +43,14 @@ export const Text = styled.p`
 
     &:last-of-type {
         margin-bottom:1.4rem;
+    }
+
+    @media(max-width:1240px) {
+        font-size:.9rem;
+
+        br {
+            display:none;
+        }
     }
 `;
 

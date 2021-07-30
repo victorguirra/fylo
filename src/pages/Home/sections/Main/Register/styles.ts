@@ -28,12 +28,21 @@ export const FormContainer = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+
+    @media(max-width:1240px) {
+        width:92%;
+        padding:3rem 1.2rem;
+    }
 `;
 
 export const Title = styled.h2`
     color:${({ theme }) => theme.colors.text_primary };
     font-family:${({ theme }) => theme.fonts.primary };
     font-size:2rem;
+
+    @media(max-width:1240px) {
+        font-size:1.4rem;
+    }
 `;
 
 export const Text = styled.p`
@@ -44,6 +53,14 @@ export const Text = styled.p`
 
     margin-top:1.8rem;
     text-align:center;
+
+    @media(max-width:1240px) {
+        font-size:.8rem;
+        
+        br {
+            display: none;
+        }
+    }
 `;
 
 export const Form = styled.form`
@@ -61,6 +78,20 @@ export const Form = styled.form`
 
     .button {
         width:25%;
+    }
+
+    @media(max-width:1240px) {
+        width:100%;
+        flex-direction:column;
+
+        .input {
+            width:100%;
+        }
+
+        .button {
+            width:100%;
+            margin-top:1.2rem;
+        }
     }
 `;
 
