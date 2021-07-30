@@ -13,7 +13,7 @@ export const Container = styled.section`
         margin-bottom:8rem;
     }
 
-    @media(max-width:1240px){
+    @media(max-width:1240px) {
         width:95%;
         flex-direction:column;
 

@@ -30,7 +30,7 @@ export const Illustration  = styled.img`
     margin-top:2rem;
 
     @media(max-width:1240px) {
-        max-width:80%;
+        max-width:85%;
         margin-top:2.4rem;
     }
 `;
