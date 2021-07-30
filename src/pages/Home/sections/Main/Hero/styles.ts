@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    width:92%;
+    width:70%;
     
     display:flex;
     align-items:center;
     justify-content:space-between;
 
     @media(max-width:1240px) {
+        width:92%;
         flex-direction:column;
 
         img {

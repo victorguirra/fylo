@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    width:65%;
+    width:70%;
     
     display:flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap:wrap;
 
     .featureCard {
