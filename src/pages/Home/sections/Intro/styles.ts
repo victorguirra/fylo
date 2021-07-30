@@ -16,6 +16,10 @@ export const Container = styled.div`
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 100% 27rem;
+
+    @media(max-width:1240px){
+        padding:2rem 1rem 12rem;
+    }
 `;
 
 export const Illustration  = styled.img`

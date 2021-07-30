@@ -13,6 +13,12 @@ export const Container = styled.header`
     img {
         width:8rem;
     }
+
+    @media(max-width:1240px){
+        img {
+            width:5rem;
+        }
+    }
 `;
 
 export const NavItem = styled(Link)`
@@ -24,5 +30,13 @@ export const NavItem = styled(Link)`
 
     &:not(:first-of-type){
         margin-left:4.8rem;
+    }
+
+    @media(max-width:1240px){
+
+        &:not(:first-of-type){
+            margin-left:1rem;
+            font-size:.9rem;
+        }
     }
 `;
