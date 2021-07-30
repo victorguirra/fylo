@@ -4,10 +4,18 @@ export const Container = styled.footer`
     background-color: ${({ theme }) => theme.colors.background_footer };
 
     padding:0 8rem 3rem;
+
+    @media(max-width:1240px) {
+        padding:0 1.6rem 3rem;
+    }
 `;
 
 export const Logo = styled.img`
     width:10rem;
+    
+    @media(max-width:1240px) {
+        width:8rem;
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -16,6 +24,11 @@ export const Wrapper = styled.div`
 
     display:flex;
     justify-content: space-between;
+
+    @media(max-width:1240px) {
+        display:flex;
+        flex-direction: column;
+    }
 `;
 
 export const Location = styled.div`
@@ -33,6 +46,12 @@ export const Location = styled.div`
         line-height:1.4rem;
 
         margin-left:1.6rem;
+    }
+
+    @media(max-width:1240px) {
+        p {
+            font-size:.8rem;
+        }
     }
 `;
 
@@ -55,6 +74,10 @@ export const Contacts = styled.div`
             margin-left:1.2rem;
         }
     }
+
+    @media(max-width:1240px) {
+        margin-top:1.2rem;
+    }
 `;
 
 export const Column = styled.div`
@@ -70,6 +93,10 @@ export const Column = styled.div`
         &:not(:first-of-type) {
             margin-top:1.2rem;
         }
+    }
+
+    @media(max-width:1240px) {
+        margin-top:5rem;
     }
 `;
 
@@ -88,7 +115,12 @@ export const Social = styled.div`
         justify-content:center;
 
         &:not(:last-of-type) {
-            margin-right:1rem;
+            margin-right:1.2rem;
         }
+    }
+
+    @media(max-width:1240px) {
+        justify-content:center;
+        margin-top:5rem;
     }
 `;
