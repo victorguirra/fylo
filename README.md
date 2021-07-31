@@ -31,7 +31,7 @@
 </div>
 
 <div align="center">
-    <h4>Demo on Vercel</h4>
+    <h3>Demo on Vercel</h3>
     <a href="https://fylo-website-rust.vercel.app/" target="blank">
         <img src="https://i.ibb.co/kmJ3bwB/Group-1.png" />
     </a>
