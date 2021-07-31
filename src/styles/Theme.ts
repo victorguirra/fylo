@@ -15,6 +15,6 @@ export const theme = {
 
     fonts: {
         primary: 'Raleway',
-        secondary: 'Open sans',
+        secondary: 'Poppins',
     }
 }
