@@ -42,14 +42,14 @@
     </a>
 </div>
 
-## 🚀 Technologies
+## :rocket: Technologies
 
 - ReactJS
 - Typescript
 - Styled Components
 - VS Code with EditorConfid and ESLint
 
-## 📝 License
+## :memo: License
 
 This project is under the MIT license. See the LICENSE for more information.
 
