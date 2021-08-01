@@ -23,8 +23,13 @@
 </p>
 
 <h4 align="center">
-    This project is a simple responsive landing page created for practice of the some techniques and to compose my portfolio
+    This project is a simple responsive landing page created for practice of the <br/> some techniques and to compose my portfolio
 </h4>
+
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
 <div align="center">
     <img src="https://i.ibb.co/FB8zdVK/third.png" width="800"/>
@@ -36,3 +41,18 @@
         <img src="https://i.ibb.co/kmJ3bwB/Group-1.png" />
     </a>
 </div>
+
+## 🚀 Technologies
+
+- ReactJS
+- Typescript
+- Styled Components
+- VS Code with EditorConfid and ESLint
+
+## 📝 License
+
+This project is under the MIT license. See the LICENSE for more information.
+
+---
+
+Made by Victor Guirra 👋 [Say hello to me!](https://www.linkedin.com/in/victorguirra/)
